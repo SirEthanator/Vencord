@@ -32,6 +32,28 @@
   --fluent-guilds-icon-size: 24px;
 }
 
-/**
+/*
  * End user options
 */
+
+/* thanks @The Sun for this ungodly string of nonsense in my eyes */
+[data-list-item-id*="chat-messages_"]:not(:has(> [class*="contents"] > [class*="isSending"])) {
+  animation: slide-in 0.6s;
+}
+[data-list-item-id*="chat-messages_"]:has(> [class*="contents"] > [class*="isSending"]) {
+    opacity: 0;
+    animation: slide-in 0.6s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+}
+/* thanks @Deko for all this easy code i wrote 100% myself */
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
