@@ -35,29 +35,3 @@
 /**
  * End user options
 */
-
-
-/*show folder names by ddyo#9254*/
-[data-list-id=guildsnav]
-[class*=expandedFolderBackground]+[class*=listItem]
-[data-dnd-name][draggable] {
-    margin: 0 auto;
-}
-[data-list-id=guildsnav]
-[class*=expandedFolderBackground]+[class*=listItem]
-[data-dnd-name][draggable] div:only-child {
-    margin: 0 auto;
-}
-[data-list-id=guildsnav]
-[class*=expandedFolderBackground]+[class*=listItem]
-[data-dnd-name][draggable]:after {
-    content: attr(data-dnd-name);
-    color: #fff;
-    z-index:999999999;
-    font-weight: bold;
-    font-size:14px;
-    display: block;
-    margin: 0 auto;
-    min-width:100%;
-    text-align: center;
-}
