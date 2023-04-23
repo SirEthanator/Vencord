@@ -30,31 +30,12 @@
   }
 }
 
-/* Makes server icons rotate a little */
-
-@keyframes servericonsanimation {
-    from {
-        transform: rotate(5deg);
-    }
-    50% {
-        transform: rotate(-5deg);
-    }
-    to {
-        transform: rotate(5deg);
-    }
-}
-
-[class^="listItem-"] {
-    animation: servericonsanimation linear infinite;
-    animation-duration: 5s;
-}
-
 /* Horizontal server list */
 
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
 /* Bottom HorizontalServerList. Simply remove the comments surrounding the @import to enable it. */
-/* @import url("https://discordstyles.github.io/Addons/bottomhsl.css"); */
+@import url("https://discordstyles.github.io/Addons/bottomhsl.css");
 
 :root {
   --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
