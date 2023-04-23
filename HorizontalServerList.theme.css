@@ -16,5 +16,5 @@
 :root {
   --HSL-server-icon-size: 45px;  /* Size of the server icons | DEFAULT: 40px */
   --HSL-server-spacing: 20px;  /* Spacing between each server icon | DEFAULT: 10px */
-  --HSL-server-direction: column-reverse; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+  --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 }
