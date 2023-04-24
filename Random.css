@@ -2,12 +2,12 @@
 
 .theme-dark .mentioned-Tre-dv .mention,
 .theme-dark .wrapper-1ZcZW- {
-  transition-duration: 250ms;
+  transition-duration: 200ms;
   background: #0000002A !important;
 }
 .theme-dark .mentioned-Tre-dv .mention,
 .theme-dark .wrapper-1ZcZW-:hover{
-  transition-duration: 250ms;
+  transition-duration: 200ms;
   background: #00000014 !important;
 }
 .theme-dark .mentioned-Tre-dv .mention,
@@ -15,7 +15,7 @@
 .theme-dark [class*="messageListItem"] .username-u-ebrn , 
 .theme-dark [class*="repliedMessage"] .desaturateUserColors-1O-G89{ /* :3 */
   color: #f3789d;
-  animation: rainbowmention 3s infinite linear;
+  animation: rainbowmention 2.5s infinite linear;
   font-weight: bold;
 }
 .theme-dark [class*="messageListItem"] .content-vSHmMD{
