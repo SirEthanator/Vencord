@@ -99,3 +99,9 @@
 .search-2Mwzzq:not(.open-1F8u2c):hover .icon-18rqoe {
   color: var(--text-muted);
 }
+
+/* Split message bar */
+
+@import url(https://minidiscordthemes.github.io/Snippets/SplitMessageBars/SplitMessageBars.css);
+
+/*  */
