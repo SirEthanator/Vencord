@@ -36,19 +36,6 @@
   --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
 }
 
-/* Remove channel icon (enable channel emojis in experiments) */
-
-[id="channels"] [class^=iconContainer-] {
-  display: none;
-}
-[id="channels"] [class^=iconContainer-] + [class^=channelEmoji-] {
-  margin-left: -4px;
-}
-/* Overlay color on text */
-[id="channels"] [class^=emojiColorFill-] {
-  z-index: 1;
-}
-
 /* Messages slide in */
 
 [data-list-item-id*="chat-messages_"]:not(:has(> [class*="contents"] > [class*="isSending"])) {
